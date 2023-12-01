@@ -2,8 +2,6 @@
 
 This is my portfoliio.
 
-### Pig Latin output.
+### [Ethay ostrichesway illway evernay ackcray isthay...](IgpayAtinlay.md)
 
-![alt tag for screen readers](bin/igLatinOutputPay.png)
-
-[Volume of a cylinder calculator](CalcProgram.md)
+### [Volume of a cylinder calculator](CalcProgram.md)
