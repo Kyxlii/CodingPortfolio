@@ -1,23 +1,3 @@
-##INFO##
-# Make a function that encrypts a given input with these steps:
-
-# Input: "apple"
-
-# Step 1: Reverse the input: "elppa"
-
-# Step 2: Replace all vowels using the following chart:
-
-# a => 0
-# e => 1
-# i => 2
-# o => 3
-# u => 4
-# EG: "1lpp0"
-
-# Step 3: Add "aca" to the end of the word: "1lpp0aca"
-
-# Output: "1lpp0aca"
-
 ##funcs
 def encrypt(unencrypted): #Technically incorrect following of steps :P
     encrypted = ""
@@ -30,7 +10,7 @@ def encrypt(unencrypted): #Technically incorrect following of steps :P
 
 ##main
 
-vowelKey = { #Global dictionary for the encryption key.
+vowelKey = { #Dictionary for the encryption key.
     "a" : "0",
     "e" : "1",
     "i" : "2",
@@ -41,5 +21,3 @@ vowelKey = { #Global dictionary for the encryption key.
 userWord = input("Which word would you like to encrypt?\n") #User input.
 
 print(f'Your encrypted word is: "{encrypt(userWord[::-1].lower())}"') #[::-1] uses string logic to reverse the word.
-
-#This looks clean as friggle frack without notes btw :D
