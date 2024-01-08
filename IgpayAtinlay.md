@@ -2,7 +2,7 @@
 
 This program takes a sentence from the user, breaks it down into each word, converts each word into [Pig Latin](https://web.ics.purdue.edu/~morelanj/RAO/prepare2.html) and prints them.
 
-## Code:
+## [Code](PigLatin.py):
 ```python
 ##func
 
