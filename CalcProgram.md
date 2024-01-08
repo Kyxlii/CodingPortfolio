@@ -1,7 +1,7 @@
 # Cylinder Volume Calculator
 
 <details>
-  <summary><p style="font-size: 50pt">Code:</p></summary>
+  <summary> ##Code: </summary>
 <pre>
   <code>
   <p>
