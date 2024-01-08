@@ -1,9 +1,9 @@
 # Cylinder Volume Calculator
 
 <details>
-  <summary style="font-Size: 16pt">Code:</summary>
+  <summary style="font-Size: 20pt">Code:</summary>
 <pre>
-  <code>
+  <code style="language-python">
   iRadius = float(input("Please enter the radius of your cylinder(cm)\n"))
   iDepth = float(input("Please enter the depth of your cylinder(cm)\n"))
 
