@@ -24,4 +24,4 @@ userText = str(input("What sentence would you like to convert to Pig Latin?\n"))
 textType = "sentence" if len(userText) > 1 else "word"
 pigString = " ".join([pigCalc(word.lower()) for word in userText])
 
-print(f"Your {textType} in Pig Latin is:\n{pigString}")
+print(f"\nYour {textType} in Pig Latin is:\n{pigString}")
