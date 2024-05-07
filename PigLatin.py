@@ -1,28 +1,27 @@
-##func
+#func
+def consonantHandler(pigWord):
+    '''if special cases aren't met, this function finds the first case of a vowel and sorts the word based on its location.'''
+    for i in range(len(pigWord)): #enumerate would also work here. 
+        if pigWord[i] in vowels:
+            return pigWord[i:] + pigWord[:i] + "ay"
+    return pigWord[2:] + pigWord[:2] + "ay" #information is inconsistent about what to do when all letters are consonants. 
 
-def pigCalc():
-    if (userText[0].lower() in vowels) == True: #Checks if the first letter is a vowel
-        pigText = userText + "way"
-        return pigText
-    elif userText[0:2].lower() == "qu": #Checks if first two letters are "qu"
-        pigText = userText[2:].lower() + userText[0:2].lower() + "ay"
-        return pigText
-    elif (userText[1].lower() in vowels) == False: #Checks if second letter is not a vowel
-        pigText = userText[2:].lower() + userText[0:2].lower() + "ay"
-        return pigText
+def pigCalc(pigWord):
+    '''sorting word into the relevant category for an accurate translation.'''
+    if len(pigWord) == 1:
+        return pigWord + "ay"
+    if pigWord[0] in vowels:
+        return pigWord + "way"
+    if pigWord[0:2] == "qu":
+        return pigWord[2:] + pigWord[:2] + "ay"
     else:
-        pigText = userText[1:] + userText[0].lower() + "ay"
-        return pigText
+        return consonantHandler(pigWord)
 
 ##main
+vowels = ["a", "e", "i", "o", "u"] #global variable to reduce redundancy
+userText = str(input("What sentence would you like to convert to Pig Latin?\n")).split() #input is split into array here also to reduce redundancy
 
-x = 0
-userText = str(input("What sentence would you like to convert to Pig Latin?\n"))
+textType = "sentence" if len(userText) > 1 else "word"
+pigString = " ".join([pigCalc(word.lower()) for word in userText])
 
-vowels = ["a", "e", "i", "o", "u"] #Used to check for vowels in future statements
-
-wordSplit = userText.split()
-while x in range(len(wordSplit)):
-    userText = wordSplit[x]
-    print(f'"{userText}" in Pig Latin is: "{pigCalc()}"')
-    x += 1
+print(f"Your {textType} in Pig Latin is:\n{pigString}")
