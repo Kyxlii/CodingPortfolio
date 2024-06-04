@@ -1,6 +1,6 @@
 # Pig Latin encryptor
 
-This program takes a sentence from the user, breaks it down into each word, converts each word into [Pig Latin](https://web.ics.purdue.edu/~morelanj/RAO/prepare2.html) and prints them.
+This program takes a sentence from the user, breaks it down into each word, sorts each word into the appropriate format for [Pig Latin](https://web.ics.purdue.edu/~morelanj/RAO/prepare2.html), converts the word and prints them.
 
 ## [Code](PigLatin.py):
 ```python
@@ -57,6 +57,6 @@ print(f"\nYour {textType} in Pig Latin is:\n{pigString}")
 
 ### Output:
 
-![An image containing the output of the code.](bin/igLatinOutputPay.png)
+![An image containing the output of the code using an example sentence (From "Those damned ostriches, they'll never understand this..." to "osethay amnedday ostrichesway, ey'llthay evernay understandway isthay...").](bin/igLatinOutputPay.png)
 
 ## [Return to portfolio here.](README.md)
