@@ -2,6 +2,11 @@
 
 This program takes a sentence from the user, breaks it down into each word, sorts each word into the appropriate format for [Pig Latin](https://web.ics.purdue.edu/~morelanj/RAO/prepare2.html), converts the word and prints them.
 
+Known issues:
+<ul>
+    <li>help</li>
+</ul>
+    
 ## [Code](PigLatin.py):
 ```python
 #func
