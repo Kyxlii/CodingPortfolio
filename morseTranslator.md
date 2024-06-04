@@ -7,6 +7,7 @@ print(" ".join([{"A" : ".-", "B" : "-...", "C" : "-.-.", "D" : "-..", "E" : ".",
 ```
 
 ### Output:
-![An image containing the output of the code.](bin/CalculatorOutput.png)
+![An image containing the output of the code when translating into morse code.](bin/morseTranslationTO.png)
+![An image containing the output of the code when translating from morse code.](bin/morseTranslationFROM.png)
 
 ## [Return to portfolio here.](README.md)
