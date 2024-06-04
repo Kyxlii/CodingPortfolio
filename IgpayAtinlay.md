@@ -4,7 +4,7 @@ This program takes a sentence from the user, breaks it down into each word, sort
 
 Known issues:
 <ul>
-    <li>help</li>
+    <li>Brackets are incorrectly handled.</li>
 </ul>
     
 ## [Code](PigLatin.py):
