@@ -39,5 +39,9 @@ funcType = ["decrypted", decrypt] if all([word[-3:] == "aca" for word in userTex
 
 print(f'Your {funcType[0]} {"word" if len(userText) == 1 else "sentence"} is: \"{funcType[1](userText)}\"')
 ```
-Encryption:
-# ()
+### Output:
+
+Encryption
+![](/bin/KaracasTO.png)
+Decryption
+![](/bin/KaracasFROM.png)
