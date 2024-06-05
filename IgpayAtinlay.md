@@ -7,7 +7,7 @@ Known issues:
     <li>Brackets are incorrectly handled.</li>
 </ul>
     
-## [Code](PigLatin.py):
+### [Code](PigLatin.py):
 ```python
 #func
 def consonantHandler(pigWord):
