@@ -42,7 +42,9 @@ print(f'Your {funcType[0]} {"word" if len(userText) == 1 else "sentence"} is: \"
 ### Output:
 
 Encryption
+
 ![An image containing an example text being encrypted into Karacas](/bin/KaracasTO.png)
 
 Decryption
+
 ![An image containing an example text being decrypted from Karacas](/bin/KaracasFROM.png)
