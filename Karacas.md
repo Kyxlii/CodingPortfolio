@@ -6,7 +6,7 @@ This was a small project we were given to encrypt entered text according to a sp
   <li>The vowels are encrypted into numbers (a -> 0, e -> 1, i -> 2, o -> 2, u -> 3)</li>
   <li>"aca" is appended to the end of each word</li>
 </ul>
-Because of this rule set, decryption is not applicable without applying a dictionary and creating essentially my own spell checker, which while that would be great learning experience, isn't something I think belongs with this task.
+Because of this rule set, decryption is not applicable without applying a dictionary and creating essentially my own spell checker, which while that would be great learning experience, isn't something I think belongs with this task. The program detects if the text is encrypted based on the pattern of "aca" at the end of each word, making the user experience easier.
 
 ### [Code:](/Karacas.py)
 ```python
@@ -39,4 +39,5 @@ funcType = ["decrypted", decrypt] if all([word[-3:] == "aca" for word in userTex
 
 print(f'Your {funcType[0]} {"word" if len(userText) == 1 else "sentence"} is: \"{funcType[1](userText)}\"')
 ```
-
+Encryption:
+# ()
